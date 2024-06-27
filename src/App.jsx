@@ -21,9 +21,46 @@ function App() {
       <div className='w-full flex items-center justify-center p-6'>
         <h1 className='w-full text-lg text-center'>Produtos</h1>
       </div>
+
       <div className='grid gap-6'> {/* PRODUTOS */}
         <div className='flex justify-center items-center flex-col pb-5'>
-          <img className='bg-slate-200 p-28 ' src={Image} alt=""/>
+          <img className='bg-slate-200 p-28' src={Image} alt=""/>
+          <span className='mt-3 text-gray-400'>Camisa de Algodão</span>
+          <span className='pt-2 pb-2 font-bold'>R$60,00</span>
+          <span className='text-xs text-gray-400'>3x de R$20,00 sem juros</span>
+          <span className='text-xs pb-2 text-gray-400'>R$55,00 com PIX</span>
+          <button className='w-full bg-black text-white pt-2 pb-2 rounded'>COMPRAR</button>
+        </div>
+      </div>
+
+      
+      <div className='grid gap-6'> {/* PRODUTOS */}
+        <div className='flex justify-center items-center flex-col pb-5'>
+          <img className='bg-slate-200 p-28' src={Image} alt=""/>
+          <span className='mt-3 text-gray-400'>Camisa de Algodão</span>
+          <span className='pt-2 pb-2 font-bold'>R$60,00</span>
+          <span className='text-xs text-gray-400'>3x de R$20,00 sem juros</span>
+          <span className='text-xs pb-2 text-gray-400'>R$55,00 com PIX</span>
+          <button className='w-full bg-black text-white pt-2 pb-2 rounded'>COMPRAR</button>
+        </div>
+      </div>
+
+      
+      <div className='grid gap-6'> {/* PRODUTOS */}
+        <div className='flex justify-center items-center flex-col pb-5'>
+          <img className='bg-slate-200 p-28' src={Image} alt=""/>
+          <span className='mt-3 text-gray-400'>Camisa de Algodão</span>
+          <span className='pt-2 pb-2 font-bold'>R$60,00</span>
+          <span className='text-xs text-gray-400'>3x de R$20,00 sem juros</span>
+          <span className='text-xs pb-2 text-gray-400'>R$55,00 com PIX</span>
+          <button className='w-full bg-black text-white pt-2 pb-2 rounded'>COMPRAR</button>
+        </div>
+      </div>
+
+      
+      <div className='grid gap-6'> {/* PRODUTOS */}
+        <div className='flex justify-center items-center flex-col pb-5'>
+          <img className='bg-slate-200 p-28' src={Image} alt=""/>
           <span className='mt-3 text-gray-400'>Camisa de Algodão</span>
           <span className='pt-2 pb-2 font-bold'>R$60,00</span>
           <span className='text-xs text-gray-400'>3x de R$20,00 sem juros</span>
